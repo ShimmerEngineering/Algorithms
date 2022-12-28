@@ -2,7 +2,7 @@
 
 The [Verisense](https://verisense.net/) Step Count algorithm is an open source step count algorithm created by [Shimmer Research](http://shimmersensing.com/) to work with the [GGIR R-package](https://cran.r-project.org/web/packages/GGIR/index.html).
 
-The algorithm is based on the [Gu et al, 2017](http://42.121.33.184/upload/resource/paper/sensors-078850306.pdf) method of step detection from tri-axial acceleration data. The algorithm coefficients have been tuned on the [pedometer evaluation dataset](http://cecas.clemson.edu/~ahoover/pedometer/) with an additional pilot dataset to reduce false positives on long term monitoring signals. Details of the validation can be found in the [validation_paper.pdf](validation_paper.pdf) file.
+The algorithm is based on the [Gu et al, 2017](http://42.121.33.184/upload/resource/paper/sensors-078850306.pdf) method of step detection from tri-axial acceleration data. The algorithm coefficients have been tuned on the [pedometer evaluation dataset](http://cecas.clemson.edu/~ahoover/pedometer/) with an additional pilot dataset to reduce false positives on long term monitoring signals.
 
 To run the Verisense step count algorithm with GGIR you must:
 1. Update the source path in myscript.R to where the verisense_count_steps.R is located. It should be local on your machine
