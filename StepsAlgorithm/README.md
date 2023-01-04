@@ -9,6 +9,10 @@ To run the Verisense step count algorithm with GGIR you must:
 2. Source myscript.R
 3. Download the [package](https://github.com/wadpac/GGIR) to your machine
 4. Update the GGIR directory in source_function.R to where the GGIR repository is located
+![image](https://user-images.githubusercontent.com/87511087/210471517-02be665b-3ac5-459e-90a2-195f6da260a2.png)
+5. If you are using a version greater than 2.7-5, you will need to comment out these lines in source_function.R and install GGIR package
+![image](https://user-images.githubusercontent.com/87511087/210471607-02466a0b-2d97-4407-b36e-b10f2f707648.png)
+
 5. Source source_function.R
 4. Make sure the line 'myfun = myfun' is not commented out in entry_function.R
 5. Run entry_function.R and step count per day will be added to part2_daysummary.csv
